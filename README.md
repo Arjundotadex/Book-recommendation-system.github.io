@@ -24,6 +24,9 @@ Go ahead, give it a try. Who knows what magical stories you'll discover next? Ha
 4. It can improve the user's reading experience by providing recommendations for books that are closely related to ones they have already enjoyed.
 5. A book recommendation system can also be used to make recommendations to groups of users with similar reading interests, such as a book club or a community of readers with similar tastes.
 
+![books-bookstore-book-reading-159711](https://user-images.githubusercontent.com/121221252/211144906-df40966b-9e1e-407b-af58-111817dbafb4.jpg)
+
+
 ## About :
 Our book recommendation system is a project that was created as part of the SheBuilds hackathon. SheBuilds is a 48-hour gender-focused hackathon with endless creativity. Students are challenged to further what they know by creating projects following their passions. Spending time on projects outside the classroom is the best way to not only learn what you love but also find new interests.
 
