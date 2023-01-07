@@ -11,32 +11,43 @@
     <div class="container-fluid website-bg">
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light navbar-bg w-100">
-                <a class="navbar-brand navbar-image" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-wrench-adjustable-circle " viewBox="0 0 16 16">
-                        <path d="M12.496 8a4.491 4.491 0 0 1-1.703 3.526L9.497 8.5l2.959-1.11c.027.2.04.403.04.61Z"/>
-                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-1 0a7 7 0 1 0-13.202 3.249l1.988-1.657a4.5 4.5 0 0 1 7.537-4.623L7.497 6.5l1 2.5 1.333 3.11c-.56.251-1.18.39-1.833.39a4.49 4.49 0 0 1-1.592-.29L4.747 14.2A7 7 0 0 0 15 8Zm-8.295.139a.25.25 0 0 0-.288-.376l-1.5.5.159.474.808-.27-.595.894a.25.25 0 0 0 .287.376l.808-.27-.595.894a.25.25 0 0 0 .287.376l1.5-.5-.159-.474-.808.27.596-.894a.25.25 0 0 0-.288-.376l-.808.27.596-.894Z"/>
-                      </svg>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav ml-auto">
-                    <a class="nav-link" style="color:white;" href="#home">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" style="color:white;" href="#">Project</a>
-                    <a class="nav-link" style="color:white;" href="#">About</a>
-                    <a class="nav-link" style="color:white;" href="#">Contributors</a>
-                  </div>
+                <div class="collapse navbar-collapse mr-4" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" style="color: white;" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: white;" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: white;" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <div class="dropdown-menu" style="background-color: #21345c;" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" style="color: white;" href="#">Action</a>
+                        <a class="dropdown-item"  style="color: white;" href="#">Another action</a>
+                        <a class="dropdown-item" style="color: white;" href="#">Something else here</a>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-            </nav>
+              </nav>
         </div>
         <div class="row" id="home">
-                <div class="col-5 banner-text d-flex flex-column justify-content-center">
-                    <p>NEXT GENERATION AI</p>
+            <div class="banner-background ">
+                <div class="col-12 banner-text text-center">
+                    <p class="pl-4 pr-4" style="text-align: center; position: relative; top: 250px;">Get the best recommendation according to your own genre</p>
                 </div>
-                <div class="col-7 banner-image ">
-                    <img src="images/My project-1.png" class="banner-image"/>
-                </div>
+            </div>                
+            <div class="col-12">
+                <h3>TOP 3 AUTHORS OF ALL TIME</h3>
             </div>
         </div>
     </div>
