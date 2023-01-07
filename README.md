@@ -1,5 +1,10 @@
 # Hello World !!! :smiley: 
 
+![baby-yoda-welcome](https://user-images.githubusercontent.com/121221252/211144445-9303c015-262a-41bb-b491-45e5f1e87be2.gif)
+
+> "The more that you read, the more things you will know. The more that you learn, the more places you'll go"
+> - <em>Dr. Seuss</em>
+
 ## Welcome to our **book recommendation system!**
 
 Are you tired of scrolling through endless lists of books, trying to find the perfect one to curl up with? Look no further! Our recommendation system uses **state-of-the-art algorithms** to suggest books tailored specifically to your tastes. But that's not all - our system is also powered by machine learning, which means it's constantly learning and adapting to your reading preferences. The more you use it, the better it gets at finding books you'll love. Don't worry your info is safe with us.
@@ -8,6 +13,8 @@ With our system, you can enter in your favorite books and authors, and we'll gen
 
 So why wait? Step into our magical world of reading today and discover your next literary adventure!
 Go ahead, give it a try. Who knows what magical stories you'll discover next? Happy reading!
+
+![books](https://user-images.githubusercontent.com/121221252/211144493-3d484ad4-a5f8-4a22-9563-9a3bf45ea1ac.gif)
 
 ## Why a Book Recommendation System ?
 
