@@ -1,10 +1,18 @@
 .website-bg {
     background-color: #12244a;
-    height: 100vh;
 }
 .navbar-bg {
     background-color: #21345c;
 }
+
 .banner-image {
-    width: 300px;
+    width: 700px;
+}
+.navbar-image {
+    color: black;
+}
+.banner-text {
+    color: white;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium';
 }
