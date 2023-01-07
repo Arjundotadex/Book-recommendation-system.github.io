@@ -1,55 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href ="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Book Recommendation System</title>
 </head>
+
 <body>
-    <div class="container-fluid website-bg">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light navbar-bg w-100">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+    <div class="navbar-custom">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Books_Recommendation_Logo.png" alt="Logo" width="200" height="200"
+                        class="d-inline-block align-text-top">
+                </a>
+                <p style="color: #fff;font-weight: bold; font-size: 40px;right: 130px;position: relative;">Book Recommendation System</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse mr-4" id="navbarNavDropdown">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" style="color: white;" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" style="color: white;" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" style="color: white;" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
-                      </a>
-                      <div class="dropdown-menu" style="background-color: #21345c;" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" style="color: white;" href="#">Action</a>
-                        <a class="dropdown-item"  style="color: white;" href="#">Another action</a>
-                        <a class="dropdown-item" style="color: white;" href="#">Something else here</a>
-                      </div>
-                    </li>
-                  </ul>
+                <div class="right-align">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div class="d-flex justify-content-end">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html"
+                                        style="font-size:30px;"><strong><span
+                                                style="font-size:150%;color:rgb(228, 209, 0) ;">H<span
+                                                    style="font-size: 30px;">ome</span></strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="project.html"
+                                        style="font-size:30px;color: #fff" ;><strong><span style="font-size:150%"
+                                                ;>P</span>roject</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="about.html"
+                                        style="font-size:30px;color: #fff" ;><strong><span style="font-size:150%"
+                                                ;>A</span>bout</strong></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false" style="font-size:30px;color: #fff" ;>
+                                        <strong><span style="font-size:150%" ;>M</span>ore</strong>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">GitHub</a></li>
+                                        <li><a class="dropdown-item" href="contributors.html">Contributors</a></li>
+                                        <li><a class="dropdown-item" href="contactus.html">Contact US</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </nav>
-        </div>
-        <div class="row" id="home">
-            <div class="banner-background ">
-                <div class="col-12 banner-text text-center">
-                    <p class="pl-4 pr-4" style="text-align: center; position: relative; top: 250px;">Get the best recommendation according to your own genre</p>
-                </div>
-            </div>                
-            <div class="col-12">
-                <h3>TOP 3 AUTHORS OF ALL TIME</h3>
             </div>
-        </div>
     </div>
+
+    </nav>
+
+
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
 </html>
