@@ -4,9 +4,15 @@
 .navbar-bg {
     background-color: #21345c;
 }
-
+.banner-background {
+    background-image: url(images/banner-background.png);
+    background-size: cover;
+    width: 3000px;
+    height: 90vh;
+}
 .banner-image {
-    width: 700px;
+    width: 600px;
+    height: 600px;
 }
 .navbar-image {
     color: black;
@@ -14,5 +20,11 @@
 .banner-text {
     color: white;
     font-size: 50px;
-    font-family:'Franklin Gothic Medium';
+    font-family:'Helvetica Neue';
+}
+.author-card {
+    background-color: white;
+}
+.author-card-image {
+    width: 100px;
 }
