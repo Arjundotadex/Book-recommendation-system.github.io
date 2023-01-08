@@ -36,8 +36,41 @@ def allofauthor(auth):
     else:
        return "Author not found."
 
-print(allofauthor("Stephen Kendrick"))
+#print(allofauthor("Leo Tolstoy"))
 #print(cheap(2,6))
 #print(df.Author.unique())
 
 #print(df1.head(10))
+print('''Please enter your choice:
+1.) BEST WORKS OF YOUR FAVOURITE AUTHOR
+2.) ALL AVAILABLE WORKS OF YOUR FAVOURITE AUTHOR
+3.) BOOKS WITHIN YOUR PRICE RANGE''')
+ch="yes"
+while (ch!="no"):
+    ch=input("Do you want to enter you choice?")
+    while (ch=="yes"):
+        x=int(input("Enter your choice:"))
+        l=[1,2,3]
+        if (x in l):
+            if (x==1):
+                a=input("Please enter author's name:")
+                print(bestof(a))
+                break
+            elif(x==2):
+                b=input("Please enter author's name:")
+                print(allofauthor(b))
+                break
+            elif(x==3):
+                c=int(input("Enter the lower end of your price range:"))
+                d=int(input("Enter the upper end of your price range:"))
+                print(cheap(c,d))
+                break
+            else:
+                break
+            ch=input("Do you want to see more books?(yes/no)")
+        else:
+            print("Invalid choice")
+else:
+    print("Thank you! Bye!")
+
+    
