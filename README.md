@@ -5,6 +5,10 @@
 > "The more that you read, the more things you will know. The more that you learn, the more places you'll go"
 > - <em>Dr. Seuss</em>
 
+
+https://user-images.githubusercontent.com/103199408/211188567-3e2773fb-c9cd-4ca8-bf24-d408ab163013.mp4
+
+
 ## Welcome to our **book recommendation system!**
 
 Are you tired of scrolling through endless lists of books, trying to find the perfect one to curl up with? Look no further! Our recommendation system uses **state-of-the-art algorithms** to suggest books tailored specifically to your tastes. But that's not all - our system is also powered by machine learning, which means it's constantly learning and adapting to your reading preferences. The more you use it, the better it gets at finding books you'll love. Don't worry your info is safe with us.
@@ -78,6 +82,10 @@ Here are some guidelines to follow when contributing:
 8. Create a PR
 
 Thank you for your interest in contributing to the Book Recommendation System website! We appreciate your help and look forward to working with you.
+
+
+https://user-images.githubusercontent.com/103199408/211188545-7597127f-bc48-48e7-8134-ad563b41398e.mp4
+
 
 ## Our Team :
 ### [Arjun](https://github.com/Arjundotadex)
