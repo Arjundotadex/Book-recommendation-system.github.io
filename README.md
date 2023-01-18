@@ -112,6 +112,11 @@ Hey Folks my name is Arjumand Rashid. I am a Machine Learning Enthusiast. Intere
 
 <br/><br/>
 
+## Contributors :
+<a href="https://github.com/Arjundotadex/Book-recommendation-system.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Arjundotadex/Book-recommendation-system.github.io" />
+</a>
+
 ## About :
 Our [book recommendation system](https://arjundotadex.github.io/Book-recommendation-system.github.io/) is a project that was created as part of the SheBuilds hackathon. SheBuilds is a 48-hour gender-focused hackathon with endless creativity. Students are challenged to further what they know by creating projects following their passions. Spending time on projects outside the classroom is the best way to not only learn what you love but also find new interests.
 
